@@ -11,7 +11,7 @@ const { default: Prompt } = require('inquirer/lib/prompts/base');
 const { type } = require('os');
 
 // TODO: Create an array of questions for user input>
-//Inquirer Prompts/ questions for User input: if / else for input??
+//Inquirer Prompts/ questions for User input
 const questions = [
 
 {
