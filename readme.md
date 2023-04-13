@@ -39,7 +39,7 @@ node index.js
 2.The application generates markdown and table of contents for the README based on responses you provide to the inquirer prompts.  
 3. The fs.writeFile generates your README.md file
 
-## Screenshot
+## Screenshot example of generated readme.md
 
 ![RDME](https://user-images.githubusercontent.com/122957548/231637315-add62edb-fe40-4961-8754-9482e36d38ed.png)
 
