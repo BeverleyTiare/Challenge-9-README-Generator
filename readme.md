@@ -1,16 +1,85 @@
 # README Generator
+This project focuses on creating a readme generator comprising a command-line application in conjunction with Node.js. The aim is to generate a README.md file based upon project questions, prompts and responses/answers. 
+
+## Name of Project
+Choose a descriptive unique name
 
 ## Description
-When creating an open source project on GitHub, it’s important to have a high-quality README for the app. This should include what the app is for, how to use the app, how to install it, how to report issues, and how to make contributions&mdash;this last part increases the likelihood that other developers will contribute to the success of the project. 
+Overview and highlight the what, why, and how of your project: such as your motivation, the purpose of building this project, and what issue does your project address?
 
-You can quickly and easily create a README file by using this command-line application to generate one. This allows the project creator to devote more time to working on the project.
+## Table of Contents 
+
+- [Installation](#installation)
+- [Usage](#usage)
+- [Methods](#methods)
+- [Credits](#credits)
+- [License](#license)
+- [Badges](#badges)
+- [Features](#features)
+- [Tests](#tests)
+- [How to contribute](#how to contribute)
+
 
 ## Installation
 ```
 npm install
 ```
+1. In generating your README file, git clone the repository to your local environment to enable the Node.js Project to be locally accessible.
+2. Install the npm package dependencies as detailed in the package.JSON, including inquirer( which enables input prompts from the CLI)
+3. To run the application enter node index.js in the CLI.
+4. Respond to the prompts in the CLI to allow the README to be generated.
+5. Following all responses to the prompts, your README will be accessible in the repository: title READMEGEN.md
+6. Auto generation of badges for your repository is also enabled by shields.io. In addition, your profile pictures and email is provided. 
 
 ## Usage
 ```
 node index.js
 ```
+1. Node index.js uses the inquirer package to deliver CLI prompts: i.e. questions about your project.
+2.The application generates markdown and table of contents for the README based on responses you provide to the inquirer prompts.  
+3. The fs.writeFile generates your README.md file
+
+## Methods
+
+Modularisation is key within this project, enabling effective development of input, output and processing.
+The following method is also used within the application: 
+    1.async/await to manage inquirer and fs.writeFiles promise
+   
+## Credits 
+
+List your collaborators, if any, with links to their GitHub profiles.
+
+If you used any third-party assets that require attribution, list the creators with links to their primary web presence in this section.
+
+If you followed tutorials, include links to those here as well.
+
+## License
+
+The last section of a high-quality README file is the license. This lets other developers know what they can and cannot do with your project. If you need help choosing a license, refer to [https://choosealicense.com/](https://choosealicense.com/).
+
+
+## Badges
+
+![badmath](https://img.shields.io/github/languages/top/lernantino/badmath)
+
+Badges aren't necessary, per se, but they demonstrate street cred. Badges let other developers know that you know what you're doing. Check out the badges hosted by [shields.io](https://shields.io/). You may not understand what they all represent now, but you will in time.
+
+## Features
+
+If your project has a lot of features, list them here.
+
+## How to Contribute
+
+If you created an application or package and would like other developers to contribute it, you can include guidelines for how to do so. The [Contributor Covenant](https://www.contributor-covenant.org/) is an industry standard, but you can always write your own if you'd prefer.
+
+## Tests
+
+Write tests for your application. Then provide examples on how to run them here.
+
+
+
+
+
+
+
+
