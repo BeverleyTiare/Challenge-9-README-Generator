@@ -1,4 +1,4 @@
-# README Generator
+# README Generator Example
 This project focuses on creating a readme generator comprising a command-line application in conjunction with Node.js. The aim is to generate a README.md file based upon project questions, prompts and responses/answers. 
 
 ## Name of Project
