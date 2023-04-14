@@ -116,7 +116,7 @@ ${data.contribution}
 ${data.tests}
 
 ## Questions
-Contact me at ${data.email} or visit my GitHub profile at @${data.github}
+Contact me at ${data.email} or visit my GitHub profile at [@${data.github}](https://github.com/${data.github})
 
 `;
 }
